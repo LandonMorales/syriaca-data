@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="a" xml:lang="en">Suzanna — <foreign xml:lang="syr">ܫܘܫܢ</foreign>
+                <title level="a" xml:lang="en">Susanna — <foreign xml:lang="syr">ܫܘܫܢ</foreign>
                 </title>
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>The International Balzan Prize Foundation</funder>
@@ -47,7 +47,7 @@
             </editionStmt>
             <publicationStmt>
                 <authority>Syriaca.org: The Syriac Reference Portal</authority>
-                <idno type="URI">http://syriaca.org/person/2092/tei</idno>
+                <idno type="URI">http://syriaca.org/person/6001/tei</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
                         <p>Distributed under a Creative Commons Attribution 3.0 Unported License.</p>
@@ -159,23 +159,27 @@
     <text>
         <body>
             <listPerson>
-                <person xml:id="saint-2092" ana="#syriaca-saint">
-                    <persName xml:id="name2092-1" xml:lang="syr" srophe:tags="#syriaca-headword" source="#bib2092-1">ܫܘܫܢ</persName>
-                    <persName xml:id="name2092-2" xml:lang="en-x-gedsh">Shōshan</persName>
-                    <persName xml:id="name2092-3" xml:lang="en" resp="http://syriaca.org" srophe:tags="#syriaca-headword">Suzanna</persName>
-                    <persName xml:id="name2092-4" xml:lang="fr-x-zanetti" source="#bib2092-1">Šōšan</persName>
-                    <persName xml:id="name2092-5" xml:lang="fr" source="#bib2092-1">Suzanne</persName>
-                    <idno type="URI">http://syriaca.org/person/2092</idno>
-                    <note xml:lang="en" type="abstract" xml:id="abstract-en-2092" source="#bib2092-1">
-                        <persName ref="http://syriaca.org/person/2092">Suzanna</persName> is a saint and female ascetic commemorated by <persName ref="http://syriaca.org/person/74">John of Ephesus</persName> in the <title ref="http://syriaca.org/work/9501">Lives of the Eastern Saints</title>.</note>
-                    <event type="attestation" xml:id="attestation2092-1" source="#bib2092-1">
+                <person xml:id="saint-6001" ana="#syriaca-saint">
+                    <persName xml:id="name6001-1" xml:lang="syr" srophe:tags="#syriaca-headword" source="#bib6001-1">ܫܘܫܢ</persName>
+                    <persName xml:id="name6001-2" xml:lang="en-x-gedsh">Shōshan</persName>
+                    <persName xml:id="name6001-3" xml:lang="en" resp="http://syriaca.org" srophe:tags="#syriaca-headword">Suzanna</persName>
+                    <persName xml:id="name6001-4" xml:lang="fr-x-zanetti" source="#bib6001-1">Šōšan</persName>
+                    <persName xml:id="name6001-5" xml:lang="fr" source="#bib6001-1">Suzanne</persName>
+                    <idno type="URI">http://syriaca.org/person/6001</idno>
+                    <note xml:lang="en" type="abstract" xml:id="abstract-en-6001" source="#bib6001-1">Susanna is the protaganist of <title ref="http://syriaca.org/work/1797">Susan</title>, a story which forms part of the <title ref="http://syriaca.org/work/9722">Additions to Daniel</title>, which is included in the <title ref="http://syriaca.org/work/9721">Peshitta version of the Old Testament</title>.</note>
+                    <event type="attestation" xml:id="attestation6001-1" source="#bib6001-1">
                         <p xml:lang="en">
-                            <persName ref="http://syriaca.org/person/2092">Suzanna</persName> is commemorated in <title ref="http://syriaca.org/work/819">Susan (text)</title>.</p>
+                            <persName ref="http://syriaca.org/person/6001">Susanna</persName> is commemorated in <title ref="http://syriaca.org/work/1797">Susan (text)</title>.</p>
                     </event>
-                    <bibl xml:id="bib2092-1">
+                    <event type="attestation" xml:id="attestation6001-2" source="#bib6001-1">
+                        <p xml:lang="en">
+                            <persName ref="http://syriaca.org/person/6001">Susanna</persName> is commemorated in <title ref="http://syriaca.org/work/1834">Susanna (text)</title>.</p>
+                    </event>
+                    <bibl xml:id="bib6001-1">
                         <title level="m" xml:lang="la">Bibliotheca Hagiographica Syriaca</title>
                         <ptr target="http://syriaca.org/bibl/649"/>
-                        <citedRange unit="entry">610</citedRange>
+                        <citedRange unit="entry">1738</citedRange>
+                        <citedRange unit="entry">1784</citedRange>
                     </bibl>
                 </person>
             </listPerson>
