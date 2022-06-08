@@ -162,74 +162,84 @@
     </teiHeader>
     <text>
         <body>
-            <bibl xml:id="work-368" ana="#hagiographic">
+            <bibl xml:id="work-368" type="lawd:ConceptualWork" ana="#hagiographic">
                 <title xml:id="name368-1" xml:lang="syr" source="#bib368-1" srophe:tags="#syriaca-headword">ܩܠܡܝܣ</title>
                 <title xml:id="name368-2" xml:lang="fr-x-bhs" source="#bib368-1">Qlēmīs</title>
                 <title xml:id="name368-3" xml:lang="fr" source="#bib368-1">Clément (texte)</title>
                 <title xml:id="name368-4" xml:lang="en" source="#bib368-1" srophe:tags="#syriaca-headword">Clement (text)</title>
-                <note xml:lang="syr" type="incipit" source="#bib368-1">
-                    <quote>ܓܒܪܐ ܚܕ ܥܬܝܪܐ ܐܝܬ ܗܘ̣ܐ ܒܪܗܘܡܝ ܡܕܝܢܬܐ: ܘܫܡܗ ܦܘܣܛܝܢܝܐܢܘܣ: ܘܫܡܐ ܕܐܢܬܬܗ ܡܝܛܪܘܕܘܪܐ.</quote>
+                <textLang mainLang="syr"/>
+                <note xml:id="incipit368-1" type="incipit">
+                    <quote xml:lang="syr" source="#bib368-1">ܓܒܪܐ ܚܕ ܥܬܝܪܐ ܐܝܬ ܗܘ̣ܐ ܒܪܗܘܡܝ ܡܕܝܢܬܐ: ܘܫܡܗ ܦܘܣܛܝܢܝܐܢܘܣ: ܘܫܡܐ ܕܐܢܬܬܗ ܡܝܛܪܘܕܘܪܐ.</quote>
+                    <quote xml:lang="fr" source="#bib368-1">Il y avait dans la ville de Rome un homme riche appelé Faustinianus et le nom de sa femme était Métrodora.</quote>
                 </note>
-                <note xml:lang="fr" type="incipit" source="#bib368-1">
-                    <quote>Il y avait dans la ville de Rome un homme riche appelé Faustinianus et le nom de sa femme était Métrodora.</quote>
+                <note xml:id="explicit368-1" type="explicit">
+                    <quote xml:lang="syr" source="#bib368-1">ܘܐܦ ܐܬܡܛܝܘ ܠܡܫܘܚܬܐ ܡܥܠܝܬܐ: ܘܒܩܕܝܫܘܬܐ ܛܒ ܐܬܢܨܚܐ. ܘܟܠܢ ܢܣܩ ܫܘܒܚܐ ܠܐܠܗܐ ܕܡܒܝܐ ܠܐܒܝ̈ܠܐ: ܘܡܥܒܪ ܥܩ̈ܬܐ ܕܟܠܗܘܢ ܐܝܠܝܢ ܕܡܣܒܪܝܢ ܒܗ: ܕܠܗ ܫܘܒܚܐ ܠܥܠܡܝܢ: ܐܡܝܢ.</quote>
+                    <quote xml:lang="fr" source="#bib368-1">Et il parvinrent aussi à un âge avancé et ils brillèrent bien dans la sainteté. Et nous tous, rendons gloire à Dieu qui console les affligés et fait cesser la tristesse de ceux qui espèrent en lui; à lui la gloire pour les siècles. Amen.</quote>
                 </note>
-                <note xml:lang="syr" type="explicit" source="#bib368-1">
-                    <quote>ܘܐܦ ܐܬܡܛܝܘ ܠܡܫܘܚܬܐ ܡܥܠܝܬܐ: ܘܒܩܕܝܫܘܬܐ ܛܒ ܐܬܢܨܚܐ. ܘܟܠܢ ܢܣܩ ܫܘܒܚܐ ܠܐܠܗܐ ܕܡܒܝܐ ܠܐܒܝ̈ܠܐ: ܘܡܥܒܪ ܥܩ̈ܬܐ ܕܟܠܗܘܢ ܐܝܠܝܢ ܕܡܣܒܪܝܢ ܒܗ: ܕܠܗ ܫܘܒܚܐ ܠܥܠܡܝܢ: ܐܡܝܢ.</quote>
-                </note>
-                <note xml:lang="fr" type="explicit" source="#bib368-1">
-                    <quote>Et il parvinrent aussi à un âge avancé et ils brillèrent bien dans la sainteté. Et nous tous, rendons gloire à Dieu qui console les affligés et fait cesser la tristesse de ceux qui espèrent en lui; à lui la gloire pour les siècles. Amen.</quote>
-                </note>
-                <note xml:lang="en" type="editions">
-                    <bibl source="#bib368-1" corresp="#bib368-5" n="1" xml:id="bib368-3">
-                        <author>Bedjan, P.</author>
-                        <title>AMS 6</title>
-                        <ptr target="http://syriaca.org/bibl/1697"/>
-                        <citedRange unit="vol">6</citedRange>
-                        <citedRange>p. 1-17</citedRange>
-                    </bibl>
-                </note>
-                <note xml:lang="en" type="editions">
-                    <bibl source="#bib368-1" corresp="#bib368-6" n="2" xml:id="bib368-4">
-                        <author>Mingana, A.</author>
-                        <title>Some Early Judaeo-Christian Documents in the John Rylands Library</title>
-                        <ptr target="http://syriaca.org/bibl/1871"/>
-                        <citedRange>4 (1917-1918), p. 90-108</citedRange>
-                    </bibl>
-                </note>
-                <note xml:lang="en" type="MSS" source="#bib368-1">
-                    <bibl xml:id="bib368-5">ms Londres, British Library, Add. 12174, f. 280-283</bibl>
-                </note>
-                <note xml:lang="en" type="MSS" source="#bib368-1">
-                    <bibl xml:id="bib368-6">ms Manchester, John Rylands Library, Syr. 45 A, p. 1-8</bibl>
-                </note>
-                <note xml:lang="en" type="MSS" source="#bib368-1">
-                    <bibl xml:id="bib368-7">ms Damas, Patriarcat syrien orthodoxe, cod. 12/17 (olim ms Dayr az-Za‘faran, cod. parch. 18 (Dolabany)), f. 212v-214v</bibl>
-                </note>
-                <note xml:lang="en" type="modernTranslation" source="#bib368-1">
-                    <bibl xml:id="bib368-8">
-                        <editor>A. Mingana</editor>
-                        <ptr target="http://syriaca.org/bibl/1871"/>
-                        <citedRange unit="pp">66-76</citedRange>
-                        <lang>en</lang>
-                    </bibl>
-                </note>
+                <bibl type="lawd:Edition" source="#bib368-1" xml:id="bib368-3">
+                    <author>Bedjan, P.</author>
+                    <title>AMS 6</title>
+                    <ptr target="http://syriaca.org/bibl/1697"/>
+                    <citedRange unit="vol">6</citedRange>
+                    <citedRange unit="p">-17</citedRange>
+                    <listRelation>
+                        <relation active="#bib368-3" ref="lawd:embodies" passive="http://syriaca.org/work/368"/>
+                        <relation active="#bib368-3" ref="dcterms:source" passive="#bib368-5"/>
+                    </listRelation>
+                </bibl>
+                <bibl type="lawd:Edition" source="#bib368-1" xml:id="bib368-4">
+                    <author>Mingana, A.</author>
+                    <title>Some Early Judaeo-Christian Documents in the John Rylands Library</title>
+                    <ptr target="http://syriaca.org/bibl/1871"/>
+                    <citedRange unit="p">90-108</citedRange>
+                    <listRelation>
+                        <relation active="#bib368-4" ref="lawd:embodies" passive="http://syriaca.org/work/368"/>
+                        <relation active="#bib368-4" ref="dcterms:source" passive="#bib368-6"/>
+                    </listRelation>
+                </bibl>
+                <bibl type="syriaca:Manuscript" xml:id="bib368-5" source="#bib368-1">
+                    <title type="shelfmark" xml:lang="fr">Londres, British Library, Add. 12174</title>
+                    <biblScope unit="folio" from="280" to="283">f. 280-283</biblScope>
+                    <ptr target="http://syriaca.org/manuscript/70"/>
+                </bibl>
+                <bibl type="syriaca:Manuscript" xml:id="bib368-6" source="#bib368-1">
+                    <title type="shelfmark" xml:lang="fr">Manchester, John Rylands Library, Syr. 45 A</title>
+                    <biblScope unit="page" from="1" to="8">p. 1-8</biblScope>
+                    <ptr target="http://syriaca.org/manuscript/4001"/>
+                </bibl>
+                <bibl type="syriaca:Manuscript" xml:id="bib368-7" source="#bib368-1">
+                    <title type="shelfmark" xml:lang="fr">Damas, Patriarcat syrien orthodoxe, cod. 12/17</title>
+                    <biblScope unit="folio" from="212v" to="214v">f. 212v-214v</biblScope>
+                    <ptr target="http://syriaca.org/manuscript/5001"/>
+                    <note xml:lang="fr">Olim ms Dayr az-Za‘faran, cod. parch. 18 (Dolabany).</note>
+                </bibl>
+                <bibl type="lawd:Translation" xml:id="bib368-8" source="#bib368-1">
+                    <editor>A. Mingana</editor>
+                    <ptr target="http://syriaca.org/bibl/1871"/>
+                    <citedRange unit="pp">66-76</citedRange>
+                    <lang>en</lang>
+                    <listRelation>
+                        <relation active="#bib368-8" ref="lawd:embodies" passive="http://syriaca.org/work/368"/>
+                        <relation active="#bib368-8" ref="dcterms:source" passive="#bib368-4"/>
+                    </listRelation>
+                </bibl>
                 <idno type="URI">http://syriaca.org/work/368</idno>
                 <idno type="BHS">148</idno>
                 <idno type="BHO">204</idno>
-                <bibl xml:id="bib368-1">
+                <bibl type="lawd:Citation" xml:id="bib368-1">
                     <title level="m" xml:lang="la">Bibliotheca Hagiographica
                                         Syriaca</title>
                     <ptr target="http://syriaca.org/bibl/649"/>
                     <citedRange unit="entry">148</citedRange>
                 </bibl>
-                <bibl xml:id="bib368-2">
+                <bibl type="lawd:Citation" xml:id="bib368-2">
                     <title xml:lang="en" level="m">Some Early Judaeo-Christian Documents in the John Rylands Library</title>
                     <title xml:lang="en" level="j">The Bulletin of the John Rylands Library</title>
                     <ptr target="http://syriaca.org/bibl/878"/>
                     <citedRange from="59" to="66" unit="pp">59-66</citedRange>
                 </bibl>
                 <listRelation>
-                    <relation name="syriaca:commemorated" active="http://syriaca.org/work/368" passive="http://syriaca.org/person/423" source="#bib368-1"/>
+                    <relation xml:id="relation368-1" name="syriaca:commemorated" active="http://syriaca.org/work/368" passive="http://syriaca.org/person/423" source="#bib368-1"/>
                 </listRelation>
             </bibl>
         </body>
