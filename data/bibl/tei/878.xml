@@ -59,6 +59,8 @@
                     <imprint>
                         <date>1917</date>
                     </imprint>
+                    <biblScope unit="vol">4</biblScope>
+                    <biblScope unit="pp">59-118</biblScope>
                 </monogr>
             </biblStruct>
         </body>
